@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header className="bg-black py-5">
             <div className="container mx-auto flex justify-start gap-x-16">
-                <h1 className="text-white">Nextjs超初心者入門</h1>
+                <Link href="/" className="text-white">Nextjs超初心者入門</Link>
                 <ul className="flex gap-3">
                     <li>
                         <Link href="/about" className="text-white">About</Link>
